@@ -1,22 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
+  <head>   
     <title>CR & Entregas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
+    <link rel="stylesheet" href="public_html/css/bootstrap.min.css">             <!--Template Bootstrap-->
+    <link rel="stylesheet" href="public_html/css/style.css">                     <!-- Estile personalizado-->
+    <link rel="stylesheet" href="public_html/Fonts/Piedra-Regular.ttf"> <!--Fonte google download para pasta fonts https://fonts.google.com/-->
+    <link rel="stylesheet" href="public_html/Fonts/icones/css/font-awesome.min.css">    
   </head>
-  <body>
-    <h1>DIFERENCIAL COMPETITIVO</h1>
-
+  <body>   
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-auto">       
+          <span class="logo">
+            CR & Entregas
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Seta Suspensa
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Ver todos</a>
+                  </div>
+                </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="public_html/imagens/CRentregas.jpg" height="300px" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="public_html/imagens/Classesocial.jpg" height="300px" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="public_html/imagens/Servicos.jpg" height="300px" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="public_html/imagens/Mercado.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Entrega rápida</h5>
+              <p class="card-text">Parceiros de entrega.</p>
+              <a href="#" class="btn btn-primary">Leia mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="public_html/imagens/sala.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Facilidade</h5>
+              <p class="card-text">Praticidade na entrega.</p>
+              <a href="#" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+        </div>   
+        <div class="col=sm-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="public_html/imagens/entrega.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Segurança</h5>
+              <p class="card-text">Garantia da entrega com segurança.</p>
+              <a href="#" class="btn btn-primary">Leia mais</a>
+            </div>
+          </div>
+        </div>     
+      </div>      
+    </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js" ></script>
-    <script src="js/popper.min.js" ></script>
-    <script src="js/bootstrap.min.js" ></script>
+    <script src="public_html/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="public_html/js/popper.min.js" ></script>
+    <script src="public_html/js/bootstrap.min.js" ></script>
   </body>
 </html>
